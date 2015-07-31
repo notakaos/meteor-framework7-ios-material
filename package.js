@@ -26,7 +26,7 @@ Package.onUse(function(api) {
     'framework7/dist/css/framework7.material.min.css',
     'framework7/dist/css/framework7.material.rtl.css',
     'framework7/dist/css/framework7.material.rtl.min.css'
-  ], 'server', {isAsset: true});
+  ], 'client', {isAsset: true});
 
   api.add_files('framework7/dist/js/framework7.min.js', 'client');
 
