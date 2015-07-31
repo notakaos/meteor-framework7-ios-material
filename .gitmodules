@@ -1,0 +1,3 @@
+[submodule "framework7"]
+	path = framework7
+	url = git@github.com:nolimits4web/Framework7.git
