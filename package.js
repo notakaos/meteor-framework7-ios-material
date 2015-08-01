@@ -1,17 +1,14 @@
 Package.describe({
-  name: 'nobutakaoshiro:framework7-meteor',
-  version: '0.1.0',
-  // Brief, one-line summary of the package.
-  summary: 'Framework7 with Meteor',
-  // URL to the Git repository containing the source code for this package.
-  git: '',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
+  name: 'nobutakaoshiro:framework7-ios-material',
+  version: '1.0.0',
+  summary: 'Framework7 (v1.2.0) with Meteor. You can choose iOS or Android theme.',
+  git: 'https://github.com/nobutakaoshiro/meteor-framework7-ios-material',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+
+  api.add_files('framework7/dist/js/framework7.min.js', 'client');
 
   api.add_files([
     'framework7/dist/css/framework7.ios.colors.css',
@@ -27,8 +24,6 @@ Package.onUse(function(api) {
     'framework7/dist/css/framework7.material.rtl.css',
     'framework7/dist/css/framework7.material.rtl.min.css'
   ], 'client', {isAsset: true});
-
-  api.add_files('framework7/dist/js/framework7.min.js', 'client');
 
   api.add_files([
     'framework7/dist/img/i-f7-ios.png',
@@ -54,5 +49,6 @@ Package.onUse(function(api) {
     'framework7/dist/img/i-form-url-ios.svg',
     'framework7/dist/img/i-form-url-material.svg'
     ], 'client');
+
 });
 
