@@ -1,11 +1,12 @@
 # meteor-framework7-ios-material
 
-Meteor wrapper for latest <a href="http://www.idangero.us/framework7/">Framework7</a>.
+<a href="http://www.idangero.us/framework7/">Framework7</a> wrapper for Meteor.
 You can choose iOS or Material(Android) theme.
 
 # How to use it?
 
 ## Add package
+
 ```
 meteor add nobutakaoshiro:framework7-ios-material
 ```
@@ -29,9 +30,9 @@ Add meta and link tags to head.
   <link rel="stylesheet" href="/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.min.css">
   <link rel="stylesheet" href="/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.colors.min.css">
 
-  <!-- or Material(Android) theme styles -->
-  <link rel="stylesheet" href="/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.min.css">
-  <link rel="stylesheet" href="/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.colors.min.css">
+  <!-- Material(Android) theme styles -->
+  <link rel="stylesheet" href="/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.min.css">
+  <link rel="stylesheet" href="/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.colors.min.css">
 </head>
 ```
 
