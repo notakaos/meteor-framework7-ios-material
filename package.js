@@ -1,6 +1,6 @@
 Package.describe({
   name: 'nobutakaoshiro:framework7-ios-material',
-  version: '1.0.0',
+  version: '1.0.1',
   summary: 'Framework7 (v1.2.0) with Meteor. You can choose iOS or Android theme.',
   git: 'https://github.com/nobutakaoshiro/meteor-framework7-ios-material',
   documentation: 'README.md'
@@ -8,9 +8,9 @@ Package.describe({
 
 Package.onUse(function(api) {
 
-  api.add_files('framework7/dist/js/framework7.min.js', 'client');
+  api.addFiles('framework7/dist/js/framework7.min.js', 'client');
 
-  api.add_files([
+  api.addAssets([
     'framework7/dist/css/framework7.ios.colors.css',
     'framework7/dist/css/framework7.ios.colors.min.css',
     'framework7/dist/css/framework7.ios.css',
@@ -23,9 +23,9 @@ Package.onUse(function(api) {
     'framework7/dist/css/framework7.material.min.css',
     'framework7/dist/css/framework7.material.rtl.css',
     'framework7/dist/css/framework7.material.rtl.min.css'
-  ], 'client', {isAsset: true});
+  ], 'client');
 
-  api.add_files([
+  api.addAssets([
     'framework7/dist/img/i-f7-ios.png',
     'framework7/dist/img/i-f7-material.png',
     'framework7/dist/img/i-form-calendar-ios.svg',
