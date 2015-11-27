@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'nobutakaoshiro:framework7-ios-material',
+  name: 'niravanu:framework7-ios-material',
   version: '1.0.2',
   summary: 'Framework7 (v1.3.5) with Meteor. You can choose iOS or Android theme.',
   git: 'https://github.com/niravanu/meteor-framework7-ios-material.git',
