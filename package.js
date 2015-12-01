@@ -1,7 +1,7 @@
 Package.describe({
   name: 'nobutakaoshiro:framework7-ios-material',
-  version: '1.0.1',
-  summary: 'Framework7 (v1.2.0) with Meteor. You can choose iOS or Android theme.',
+  version: '1.0.2',
+  summary: 'Framework7 (v1.3.5) with Meteor. You can choose iOS or Android theme.',
   git: 'https://github.com/nobutakaoshiro/meteor-framework7-ios-material',
   documentation: 'README.md'
 });
