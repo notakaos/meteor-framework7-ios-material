@@ -1,4 +1,4 @@
-# meteor-framework7-ios-material
+# [Deprecated] meteor-framework7-ios-material
 
 <a href="http://www.idangero.us/framework7/">Framework7</a> wrapper for Meteor.
 You can choose iOS or Material(Android) theme.
